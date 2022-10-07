@@ -10,3 +10,64 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+/* Layout Styles */
+
+.flex-container {
+    display: flex;
+
+}
+.header-container {
+    display: grid;
+    
+}
+
+
+
+/* Content Styles */
+.header-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+}
+
+
+.header-container a {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    justify-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    
+}
+header li {
+    display: inline;
+    margin-right: 0.5rem;
+    
+}
+
+.item {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #707070;
+    color: black;
+    margin: 3rem;
+    border-radius: 3px;
+    padding: 2rem;
+    height: 10rem;
+    width: 10rem;
+
+}
+
+/* header {
+    background-color: white;
+    position: relative;
+    padding: 1rem;
+} */
