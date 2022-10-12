@@ -4,52 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CaraCara eCommerce Website</title>
+    <title>Cara Cara Website- Project</title>
     <link rel="stylesheet" href="./styles.CSS"/>
 </head>
+
 <body>
-    <div class="header-container">
-         <header>
-            <nav>
-                <a href="">CARA<img src="./assets/icons8-pottery-96.png">CARA</a>
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>PRODUCTS</li>
-                    <li>CONTACT</li>
-                </ul>
-            </nav>
-        </header>
-    </div>  
-    <div class="flex-container">
-        <div class="item">MAIN-ABOUT US</div>
-        <div class="item">ABOUT US IMAGES</div>
-        <div class="item">MAIN-OUR PRODUCTS</div>
-        <div class="item">PRODUCTS IMAGES</div>
-        <div class="item">CONTACT US BOXES</div>
-        <div class="item">CONTACT US</div>
-        <div class="item">FOOTER</div>
-    </div>
+    <header>
+        <nav>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#products">PRODUCTS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </nav>
+        <div>
+            <h3>CARA<img src="./assets/icons8-pottery-96.png">CARA</h3>
+        </div>
+        <div>
+            <input type="text" id="search" name="search" value="">
+            <span><strong>CART (0)</strong></span>
+        </div>
+    </header>
+    <hr class="header_hr">
+    <main>
+       <section id="home">
+            <div>
+                <strong>CERAMICS</strong><br>
+                <strong>CRAFTED BY</strong><br>
+                <strong>HAND...</strong>
+            </div>
+            <div>
+                <strong>...FROM THE</strong><br>
+                <strong>GROUND UP</strong>
+            </div>
+       </section>
+       <section id="about">
+            <h2>ABOUT US</h2>
+            <hr class="about_us_hr">
+            <p>
+                <img class="about_image_left" src="assets/Cylinder_unglazed3_2048x2048.jpg" alt="a cylinder unglazed vase">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
+                faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
+                ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
+                risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
+                amet commodo.
+                </p>
+            </p>
+            <br>
+            <p>
+               <img class="about_image_right" src="assets/Vase_Dame_2048x2048.jpg" alt="a vase with a dame flower">
+               <p>
+                Nulla porttitor massa id neque aliquam
+                vestibulum morbi. Facilisi nullam vehicula
+                ipsum a arcu cursus vitae congue. Nam libero
+                justo laoreet sit amet cursus sit amet dictum.
+                Tristique magna sit amet purus gravida quis.
+                Velit euismod in pellentesque massa placerat.
+                In ante metus dictum at tempor commodo.
+                Libero nunc consequat interdum varius sit
+                amet mattis. Egestas sed sed risus pretium
+                quam vulputate dignissim. Diam phasellus
+                vestibulum lorem sed risus. Cursus sit amet
+                dictum sit amet justo donec enim.
+                Tincidunt praesent semper feugiat nibh sed.
+                Vulputate mi sit amet mauris commodo quis
+                imperdiet massa. Amet tellus cras adipiscing
+                enim eu turpis egestas pretium aenean. 
+               </p>
+            </p>
+       </section>
+       <section id="products">
+            <h2>OUR PRODUCTS</h2>
+            <hr class="products_hr">
+            <div class="product_container">
+                <div class="product">
+                    <a><img class="product_image" src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <hr class="hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh
+                        sed. Vulputate mi sit amet mauris
+                        commodo quis imperdiet massa. Amet
+                        tellus cras adipiscing enim eu turpis
+                        egestas pretium aenean.
+                    </p>
+                    <a href="bowlproducts.html">LEARN MORE</a>
+                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                </div>
+                <div class="product">
+                    <a><img class="product_image" src="assets/oriento-maVIpNNtmlQ-unsplash.jpg"></a>
+                    <br>
+                    <strong>NATUREZA VASE</strong>
+                    <span>$37.00</span>
+                    <hr class="hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh
+                        sed. Vulputate mi sit amet mauris
+                        commodo quis imperdiet massa. Amet
+                        tellus cras adipiscing enim eu turpis
+                        egestas pretium aenean.
+                    </p>
+                    <a href="vaseproducts.html">LEARN MORE</a>
+                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                </div>
+                <div class="product">
+                    <a><img class="product_image" src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"></a>
+                    <br>
+                    <strong>FEIRA BOWLS</strong>
+                    <span>$29.00</span>
+                    <hr class="hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh
+                        sed. Vulputate mi sit amet mauris
+                        commodo quis imperdiet massa. Amet
+                        tellus cras adipiscing enim eu turpis
+                        egestas pretium aenean.
+                    </p>
+                    <a href="bowlproducts.html">LEARN MORE</a>
+                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                </div>
+            </div>
+       </section> 
+    </main>
 </body>
 </html>
+    
 
 
 
-<!-- <header>
-    <nav>
-        <h2>
-        <a href="">CARA <img src="./assets/icons8-pottery-96.png"> CARA</a>
-        </h2>
-        <h3>
-        <ul>
-        <a href="">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PRODUCTS</li>
-            <li>CONTACT</li>
-        </a> 
-        </ul>
-        </h3>
-        
-    </nav>
-</header> -->
+
