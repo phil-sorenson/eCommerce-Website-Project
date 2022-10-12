@@ -60,3 +60,12 @@ Q: Does the text inside <p> matter (I.e How it's typed out in HTML)?
 Q: Any way to change <img> size without hardcoding?
 
 Q: Is <hr> he only way to create lines under text? Easier/Better way to create thickness instead of hard coding the border? (when coded this way, do we risk showing diff for diff users?)
+
+# TO DO:
+    * Align Header items and Center the Header as a whole
+    * Add Magnifying glass into the Search Box
+    * Move Text in Home picture and make font bigger
+    * Adjust and align About Us section
+    * Figure out how to get boder around Product Images
+    * Get space between "Learn More" and "Add to Cart" & the Product name and Price
+    * Add Footer
