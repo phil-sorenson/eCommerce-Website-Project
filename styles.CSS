@@ -11,26 +11,72 @@ html {
     font-size: 62.5%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-    margin-bottom: 1rem;
+}
+h1{
+    font-weight: 600;
+    font-size: large;
 }
 
+h2 {
+    font-weight: 400;
+    font-size: small;
+}
+h3 {
+    font-weight: normal;
+    font-size: x-small;
+}
 /* /* HEADER * */
 
 header {
     background-color:white;
     color: black;
     position: relative;
-    
+    display: flex;
+    justify-content: space-evenly;
+    height: 63px;
+    padding: 5px;
+    align-items: flex-end;
 }
 
+h2 img {
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.logo h2 {
+    font-weight: bold;
+
+}
 nav li {
     list-style-type: none;
     display: inline;
+    
 }
 
 nav a {
     text-decoration: none;
+    color: black;
 }
+.home_nav {
+    padding-right: 5px;
+}
+
+.products_nav {
+    padding-right: 5px;
+}
+.about_nav {
+    padding-right: 6px;
+}
+
+
+.search_bar {
+    background: url("assets/1200px-Google_Magnifying_Glass.svg.png") no-repeat;
+    background-position: right;
+    background-size: 14px 14px; 
+}
+
+/* /* HOME Section * */
 
 .home {
     background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
@@ -51,6 +97,7 @@ nav a {
     width: 275px;
     height: 400px;
 }
+/* /* BODY-PRODUCTS * */
 
 .product_container {
     display: grid;
@@ -63,7 +110,10 @@ nav a {
 .product_image {
     width: 265px;
     height: 240px;
-   
+}
+
+.learn_more{
+    color: #bf7631;
 }
 
 /* /* Horizontal Rules * */
@@ -72,7 +122,6 @@ nav a {
     width: 33%;
     background-color: black;
     height: 3px;
-
 }
 
 .body_hr {
@@ -86,7 +135,7 @@ nav a {
     width: 75%;
     background-color: black;
     height: 3px;
-    
+    margin: auto;
 }
 
 .add_to_cart_button {
@@ -100,7 +149,4 @@ nav a {
 
 
 
-header {
-    position: relative;
-    padding: 1rem;
-} 
+
