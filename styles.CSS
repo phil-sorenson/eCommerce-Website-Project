@@ -44,6 +44,7 @@ h2 img {
     margin-left: 0px;
     margin-right: 0px;
 }
+
 .logo h2 {
     font-weight: bold;
 
@@ -83,32 +84,42 @@ nav a {
     background-size: cover;
     color: white;
     height: 400px;
+}
 
+.about_us {
+    margin: 40px;
 }
 .about_us_container {
     margin-top: 7rem;
     display: flex;
 }
 .about_image_left {
-    width: 250px;
-    height: 350px;
+    width: 200px;
+    height: 300px;
 }
 .about_image_right {
     width: 275px;
     height: 400px;
 }
-/* /* BODY-PRODUCTS * */
+/* /* PRODUCTS * */
 
 .product_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 65px;
     row-gap: 70px;
-    margin-top: 7rem;
+    justify-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    /* margin-right: 30px;
+    margin-top: 40px;
+    margin */
 }
-
+.product_section {
+    margin:50px;
+}
 .product_image {
-    width: 265px;
+    width: 240px;
     height: 240px;
 }
 
@@ -147,6 +158,9 @@ nav a {
 
 }
 
-
+footer {
+    background-color: #bf7631;
+    color: white;
+}
 
 
