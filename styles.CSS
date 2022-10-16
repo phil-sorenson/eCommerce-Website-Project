@@ -77,14 +77,25 @@ nav a {
     background-size: 14px 14px; 
 }
 
-/* /* HOME Section * */
+/* /* HOME * */
 
 .home {
     background-image: url("assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     background-size: cover;
     color: white;
-    height: 400px;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
 }
+.home_text_left {
+    margin: 40px;
+}
+.home_text_right {
+    margin: 40px;
+    margin-top:250px;
+}
+
+/* ABOUT US **/
 
 .about_us {
     margin: 40px;
@@ -123,9 +134,35 @@ nav a {
     height: 240px;
 }
 
-.learn_more{
+.learn_more {
     color: #bf7631;
 }
+
+
+/* /* CONTACT US * */
+
+.contact_boxes {
+    margin-top: 20px;
+    
+}
+ .message_box {
+    height: 100px;
+    width: 300px;
+ }
+
+/* /* FOOTER * */
+footer {
+    background-color: #bf7631;
+    color: black;
+    display: flex;
+}
+
+.footer_logo h2 {
+    font-weight: bold;
+}
+
+
+
 
 /* /* Horizontal Rules * */
 
@@ -154,13 +191,6 @@ nav a {
     color: white;
     border: none;
     font-size: 10px;
-    
-
-}
-
-footer {
-    background-color: #bf7631;
-    color: white;
 }
 
 
