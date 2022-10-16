@@ -142,13 +142,20 @@ nav a {
 /* /* CONTACT US * */
 
 .contact_boxes {
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
- .message_box {
-    height: 100px;
-    width: 300px;
- }
+
+input {
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.send_message_button {
+    background-color: #bf7631;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+}
 
 /* /* FOOTER * */
 footer {
