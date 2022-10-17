@@ -72,3 +72,4 @@ Q: Is <hr> he only way to create lines under text? Easier/Better way to create t
     * Stylize the "send" button in contact us
     * Create margins for contact us section
     * Continue to add to footer
+    * Add the ability to Click on "footer logo" and go back up to top of page

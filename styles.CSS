@@ -141,20 +141,38 @@ nav a {
 
 /* /* CONTACT US * */
 
+.contact_us {
+    margin: 50px;
+}
+
+textarea {
+    width: 380px;
+    height: 105px;
+}
 .contact_boxes {
-    margin-top: 20px;   
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    justify-items: start;
 }
 
 input {
     padding-top: 0;
     padding-left: 0;
 }
-
+.send_button {
+    margin-left: 345px;
+    background-color: #bf7631;
+    border: none;
+    
+}
 .send_message_button {
     background-color: #bf7631;
     color: white;
     border: none;
     margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 10px;
 }
 
 /* /* FOOTER * */
