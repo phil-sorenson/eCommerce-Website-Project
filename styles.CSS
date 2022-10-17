@@ -102,16 +102,24 @@ nav a {
 }
 .about_us_container {
     margin-top: 7rem;
-    display: flex;
+    display: grid;
 }
-.about_image_left {
+.about_us_image_left {
     width: 200px;
     height: 300px;
 }
-.about_image_right {
+.about_us_image_left img {
+    width: 200px;
+    height: 300px;
+}
+.about_us_image_right {
     width: 275px;
     height: 400px;
 }
+ .about_us_image_right img {
+    width: 275px;
+    height: 400px;
+ }
 /* /* PRODUCTS * */
 
 .product_container {
