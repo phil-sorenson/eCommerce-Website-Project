@@ -100,26 +100,52 @@ nav a {
 .about_us {
     margin: 40px;
 }
+
 .about_us_container {
-    margin-top: 7rem;
+    margin-top: 3rem;
     display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+        'a a b'
+        'c d b'
+        'c e b'
+    }
+.top_paragraph {
+    grid-area: a;
+    height: auto;
 }
+
+.about_us_image_right {
+    width: 275px;
+    height: 400px;
+    grid-area: b;
+}
+
+ .about_us_image_right img {
+    width: 275px;
+    height: 400px;
+ }
+
 .about_us_image_left {
     width: 200px;
     height: 300px;
+    grid-area: c;
 }
 .about_us_image_left img {
     width: 200px;
     height: 300px;
 }
-.about_us_image_right {
-    width: 275px;
-    height: 400px;
+.middle_paragraph {
+    grid-area: d;
 }
- .about_us_image_right img {
-    width: 275px;
-    height: 400px;
- }
+
+.bottom_paragraph {
+    grid-area: e;
+}
+
+
 /* /* PRODUCTS * */
 
 .product_container {
