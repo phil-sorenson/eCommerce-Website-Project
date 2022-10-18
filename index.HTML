@@ -12,10 +12,10 @@
     <header>
         <nav>
             <h3>
-            <li class="home_nav"><a href="#home">HOME</a></li>
-            <li class="products_nav"><a href="#products">PRODUCTS</a></li>
-            <li class="about_nav"><a href="#about">ABOUT</a></li>
-            <li class="contact_nav"><a href="#contact">CONTACT</a></li>
+                <li class="home_nav"><a href="#home">HOME</a></li>
+                <li class="products_nav"><a href="#products">PRODUCTS</a></li>
+                <li class="about_nav"><a href="#about">ABOUT</a></li>
+                <li class="contact_nav"><a href="#contact">CONTACT</a></li>
             </h3>
         </nav>
         <div class="logo">
@@ -95,8 +95,10 @@
                 <div class="product">
                     <a><img class="product_image" src="assets/tom-crew-7HuTGlUfQSo-unsplash.jpg"></a>
                     <br>
-                    <h2>MUNDO BOWLS</h2>
-                    <span>$48.00</span>
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">MUNDO BOWLS</h2>
+                        <h2 align="right" class="product_price">$48.00</h2>
+                    </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -105,8 +107,13 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="bowlproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="bowlproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
+
                 </div>
                 <div class="product">
                     <a><img class="product_image" src="assets/oriento-maVIpNNtmlQ-unsplash.jpg"></a>
@@ -256,26 +263,30 @@
             </div>
        </section>
        <footer class="footer">
-            <div class="youtube_logo">
-                <img src="assets/icons8-youtube-96.png">
-            </div>
-            <div class="FB_logo">
-                <img src="assets/icons8-facebook-96 (1).png">
-                <p> Pretium nibh ipsum consequat nisl vel pretium.  </p>
-            </div>
-            
-            <div class="footer_logo">
-                <h2>CARA<img src="./assets/icons8-pottery-96 (1).png">CARA</h2>
-            </div>
-                <p>Amet tellus cras adipiscing enim eu turpis. </p>
-            <div class="twitter_logo">
-                <img src="./assets/icons8-twitter-96.png"> 
-            </div>
-            <div class="instagram_logo">
-                <img src="./assets/icons8-instagram-96.png">
-            </div>
-            
-                 ©Copyright 2015 - 2020
+        <div class="left_logo_footer">
+            <img class="logo_image" src="assets/icons8-youtube-96.png">
+            <img class="logo_image" src="assets/icons8-facebook-96 (1).png">
+            <p> Pretium nibh ipsum consequat nisl vel pretium.  </p>
+        </div>
+        <div class="footer_logo">
+            <h2>CARA</h2>
+        </div>
+        <div>
+            <img class="logo_image" src="./assets/icons8-pottery-96 (1).png">
+        </div>
+        <div class="footer_logo">
+            <h2>CARA</h2>
+        </div>
+             
+        <div align="right" class="right_logo_footer">
+            <img class="logo_image" src="./assets/icons8-twitter-96.png"> 
+            <img class="logo_image" src="./assets/icons8-instagram-96.png">
+            <p>Amet tellus cras adipiscing enim eu turpis. </p>
+        </div>
+        <div class="paragraph_copyright">  
+            <p>©Copyright 2015 - 2020</p>
+        </div>
+       
        </footer>
     </main>
 </body>
