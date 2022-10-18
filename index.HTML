@@ -12,15 +12,16 @@
     <header>
         <nav>
             <h3>
-                <li class="home_nav"><a href="#home">HOME</a></li>
-                <li class="products_nav"><a href="#products">PRODUCTS</a></li>
-                <li class="about_nav"><a href="#about">ABOUT</a></li>
-                <li class="contact_nav"><a href="#contact">CONTACT</a></li>
+            <li class="home_nav"><a href="#home">HOME</a></li>
+            <li class="products_nav"><a href="#products">PRODUCTS</a></li>
+            <li class="about_nav"><a href="#about">ABOUT</a></li>
+            <li class="contact_nav"><a href="#contact">CONTACT</a></li>
             </h3>
         </nav>
-        <div class="logo">
-            <h2>CARA<img src="./assets/icons8-pottery-96.png">CARA</h2>
+        <div class="header_logo">
+            <h2>CARA<img class="header_logo_image" src="./assets/icons8-pottery-96.png">CARA</h2>
         </div>
+      
         <div>
             <input type="text" id="search" name="search" value="" class="search_bar">
             &nbsp;&nbsp;&nbsp;<span>CART (0)</span>
@@ -113,13 +114,15 @@
                         </button>
                         <button class="add_to_cart_button" type="button">ADD TO CART</button>
                     </div>
-
                 </div>
+
                 <div class="product">
                     <a><img class="product_image" src="assets/oriento-maVIpNNtmlQ-unsplash.jpg"></a>
                     <br>
-                    <h2>NATUREZA VASE</h2>
-                    <span>$37.00</span>
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">NATUREZA VASE</h2>
+                        <h2 align="right" class="product_price">$37.00</h2>
+                    </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -128,15 +131,22 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="vaseproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="vaseproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
+
                 <div class="product">
-                    <a><img class="product_image" src="assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"></a>
+                    <a><img class="product_image" src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"></a>
                     <br>
-                    <h2>FEIRA BOWLS</h2>
-                    <span>$29.00</span>
-                    <hr class="hr_product">
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">FEIRA BOWLS</h2>
+                        <h2 align="right" class="product_price">$29.00</h2>
+                    </div>
+                <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
                         sed. Vulputate mi sit amet mauris
@@ -144,14 +154,21 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="bowlproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="bowlproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
+
                 <div class="product">
-                    <a><img class="product_image" src="assets/tom-crew-3uwu5K0RtaE-unsplash.jpg"></a>
+                    <a><img class="product_image" src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg"></a>
                     <br>
-                    <h2>NATUREZA POTS</h2>
-                    <span>$59.00</span>
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">NATUREZA POTS</h2>
+                        <h2 align="right" class="product_price">$59.00</h2>
+                    </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -160,14 +177,21 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="potsproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="potproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <div class="product">
-                    <a><img class="product_image" src="assets/linh-le-a0rE64YJDA4-unsplash.jpg"></a>
-                    <br>
-                    <h2>PEDRA VASE</h2>
-                    <span>$31.00</span>
+
+                    <div class="product">
+                        <a><img class="product_image" src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg"></a>
+                        <br>
+                        <div class="product_title_price_container">
+                            <h2 class="product_title">PEDRA VASE</h2>
+                            <h2 align="right" class="product_price">$31.00</h2>
+                        </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -176,14 +200,22 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="vaseproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="vaseproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
+
+
                 <div class="product">
-                    <a><img class="product_image" src="assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg"></a>
+                    <a><img class="product_image" src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg"></a>
                     <br>
-                    <h2>VIAJA POTS</h2>
-                    <span>$57.00</span>
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">VIAJA POTS</h2>
+                        <h2 align="right" class="product_price">$57.00</h2>
+                    </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -192,14 +224,22 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="potproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="potproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
+
+
                 <div class="product">
-                    <a><img class="product_image" src="assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg"></a>
+                    <a><img class="product_image" src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg"></a>
                     <br>
-                    <h2>SERVIÇO PLATES</h2>
-                    <span>$35.00</span>
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">SERVIÇO PLATES</h2>
+                        <h2 align="right" class="product_price">$35.00</h2>
+                    </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -208,14 +248,22 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="plateproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="plateproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
+
+
                 <div class="product">
-                    <a><img class="product_image" src="assets/oriento-l0ah3UBLppo-unsplash.jpg"></a>
+                    <a><img class="product_image" src="./assets/oriento-l0ah3UBLppo-unsplash.jpg"></a>
                     <br>
-                    <h2>CAMPEÃO VASE</h2>
-                    <span>$37.00</span>
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">CAMPEÃO VASE</h2>
+                        <h2 align="right" class="product_price">$37.00</h2>
+                    </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -224,14 +272,21 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="vaseproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="vaseproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
+
                 <div class="product">
-                    <a><img class="product_image" src="assets/tom-crew-SITGdvztUdg-unsplash.jpg"></a>
+                    <a><img class="product_image" src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg"></a>
                     <br>
-                    <h2>TROCA BOWLS</h2>
-                    <span>$25.00</span>
+                    <div class="product_title_price_container">
+                        <h2 class="product_title">TROCA BOWLS</h2>
+                        <h2 align="right" class="product_price">$25.00</h2>
+                    </div>
                     <hr class="hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh
@@ -240,8 +295,12 @@
                         tellus cras adipiscing enim eu turpis
                         egestas pretium aenean.
                     </p>
-                    <a class="learn_more" href="bowlproducts.html">LEARN MORE</a>
-                    <span><button class="add_to_cart_button" type="button">ADD TO CART</button></span>
+                    <div>
+                        <button class="learn_more_button">
+                            <a class="learn_more_body" href="bowlproducts.html">LEARN MORE</a>
+                        </button>
+                        <button class="add_to_cart_button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
        </section>
